@@ -15,9 +15,11 @@ skills/
 skill/
 *.skill
 
-# Notebooks de exploración y evidencia (Etapa 1)
+# Notebooks y reportes de exploración y evidencia (Etapa 1)
 notebooks/
+report/
 *.ipynb
+*.pdf
 .ipynb_checkpoints/
 
 # Entornos virtuales locales

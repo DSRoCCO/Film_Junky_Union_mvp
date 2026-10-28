@@ -15,7 +15,7 @@ Sistema analítico modular y reproducible para el diagnóstico del catálogo de 
 
 **Film Junky Union** es una comunidad de aficionados al cine clásico en constante crecimiento. Con el incremento diario en el flujo de publicaciones, el equipo editorial enfrenta el reto de moderar críticas tóxicas, agresivas o excesivamente destructivas sin saturar la capacidad humana de revisión ni censurar opiniones constructivas por error.
 
-El proyecto se estructuró en dos etapas metodológicas conectadas por un contrato formal de especificación ([`project_spec.md`](project_spec.md)):
+El proyecto se estructuró en dos etapas metodológicas respaldadas por la evidencia analítica disponible en el cuaderno ejecutable [`notebooks/analisis_integral.ipynb`](notebooks/analisis_integral.ipynb) y su informe ejecutivo consolidado en PDF [`report/analisis_integral.pdf`](report/analisis_integral.pdf):
 
 1. **Etapa 1: Análisis Integral de Datos y Modelado sin Fuga (`notebooks/analisis_integral.ipynb`)**:
    - Auditoría exhaustiva de calidad (47,331 reseñas sobre 6,648 películas estrenadas entre 1894 y 2010).
@@ -67,6 +67,9 @@ Film_Junky_Union_mvp/
 │
 ├── notebooks/
 │   └── analisis_integral.ipynb   # Cuaderno integral con la evidencia congelada de Etapa 1
+│
+├── report/
+│   └── analisis_integral.pdf     # Informe ejecutivo consolidado en PDF (Etapa 1)
 │
 ├── data/
 │   ├── imdb_reviews.tsv          # Fuente original cruda (excluida de Git/Docker)
