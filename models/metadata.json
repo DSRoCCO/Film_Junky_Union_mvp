@@ -1,0 +1,20 @@
+{
+  "model_name": "TF-IDF (1,2) + LinearSVC",
+  "timestamp_utc": "2026-10-27T23:50:51.524908",
+  "train_samples": 23757,
+  "test_samples": 23535,
+  "standard_test_metrics": {
+    "f1_negative": 0.8898,
+    "precision_negative": 0.8865,
+    "recall_negative": 0.8932,
+    "accuracy": 0.8891,
+    "passed_contract": true
+  },
+  "operating_rule": {
+    "operating_threshold": 0.291,
+    "coverage": 0.4121,
+    "precision_negative": 0.9459,
+    "recall_negative": 0.7772,
+    "f1_negative": 0.8533
+  }
+}

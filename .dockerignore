@@ -1,0 +1,66 @@
+# ==============================================================================
+# Docker Ignore - Film Junky Union MVP
+# ==============================================================================
+
+# Control de versiones y configuración de repositorio
+.git
+.gitignore
+.dockerignore
+Dockerfile*
+README.md
+project_spec.md
+
+# Colección de skills internas del asistente
+skills/
+skill/
+*.skill
+
+# Notebooks de exploración y evidencia (Etapa 1)
+notebooks/
+*.ipynb
+.ipynb_checkpoints/
+
+# Entornos virtuales locales
+.venv/
+venv/
+env/
+
+# Cachés de Python y bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Pruebas unitarias y suites de testing (no requeridas en runtime de producción)
+tests/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Datos crudos locales pesados (>120 MB de TSVs de IMDb)
+data/*.tsv
+data/imdb*
+data/raw/
+data/interim/
+data/temp/
+
+# Secretos y variables de entorno
+.env
+.env.*
+secrets/
+*.key
+*.pem
+
+# Archivos de editores y sistemas operativos
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Logs y temporales
+*.log
+*.tmp
+scratch/
+tmp/
